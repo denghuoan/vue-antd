@@ -27,6 +27,28 @@ const menuData = [
     ]
   },
   {
+    path: '/fabric',
+    title: 'FabricJs',
+    icon: 'gitlab',
+    children: [
+      {
+        path: '/fabric/base',
+        title: '基础',
+        component: '/fabric/base'
+      },
+      {
+        path: '/fabric/text',
+        title: '文本',
+        component: '/fabric/text'
+      },
+      {
+        path: '/fabric/example',
+        title: '项目实战',
+        component: '/fabric/example'
+      }
+    ]
+  },
+  {
     path: '/test',
     title: '测试',
     icon: 'gitlab',
